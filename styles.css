@@ -1,0 +1,575 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.container-fluid {
+  padding: 3% 15% 15% 15%;
+}
+
+/* .hd1 {
+  border: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.3);
+} */
+
+.nav-text {
+  color: #fff !important;
+  opacity: 0.9;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+@media (max-width: 991.5px) {
+  .nav-link {
+    text-align: center;
+  }
+}
+.navbar-toggler {
+  outline: none !important;
+}
+
+/* box for the images */
+
+a:hover {
+  color: #fff;
+  opacity: 1;
+
+  transition: ease-in;
+}
+
+a:hover {
+  color: black !important;
+}
+.nav-item {
+  margin: 2px 50px 2px 50px;
+}
+.nav-bg {
+  background-color: #262b37;
+  width: 100%;
+}
+
+.container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.nav-item:hover {
+  background-color: white !important;
+}
+.nav-item:active {
+  background-color: white !important;
+}
+.title-image {
+  width: 100%;
+  background-size: cover;
+}
+.hd1 {
+  font-size: 100px !important;
+  text-transform: uppercase;
+}
+.hd2 {
+  font-weight: lighter !important;
+}
+
+#features {
+  padding: 5%;
+}
+.feature {
+  text-align: center;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* about me feature starts from here */
+.myself {
+  padding-top: 2%;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 0;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+.in {
+  text-align: center;
+  font-size: 14px;
+
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+.about-name {
+  margin-bottom: 0;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 37px;
+}
+.about-destiniy {
+  margin-bottom: 2%;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+.aboutme-title {
+  margin-bottom: 7%;
+}
+#about-me {
+  padding: 5%;
+  text-align: center;
+}
+.l {
+  text-align: left !important;
+}
+
+.aboutme-image {
+  width: 400px;
+  height: 400px;
+}
+
+.images-ab {
+  text-align: center;
+}
+
+#about-me {
+  background-color: #00bdbd;
+}
+.download-resume {
+  border-radius: 0% !important;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  background-color: #474d5d !important;
+}
+
+.btn:hover {
+  background: #373d4c !important;
+  color: #cccccc !important;
+  text-decoration: none !important;
+}
+
+/* about me feature ends here*/
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* my technical skills section starts from here */
+
+.skill {
+  text-align: center;
+  line-height: 2;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+.skill-image {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 7%;
+}
+#skill-section {
+  padding: 7% 5%;
+  background-color: #eeeeee;
+}
+.skill-heading {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 10px !important;
+  line-height: 38px;
+  padding-bottom: 0px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0px;
+  color: #ff675f;
+}
+.show-off {
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.skill-ex {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 19px;
+}
+.skill-so {
+  color: grey;
+}
+.learn-link {
+  text-decoration: none;
+}
+.learn-link:hover {
+  text-decoration: none;
+}
+
+/* my technical skills section ends here */
+
+/* -------------------------------------------------------------------------------------------- */
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+
+  margin: 0rem !important;
+  padding: 0rem !important;
+}
+
+/* motivational quotes starts from here */
+
+#motivation {
+  text-align: center;
+  background-color: #2bb3dd;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.motivation-items {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+.testimonial-text {
+  color: #fff;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.motive-heading {
+  font-size: 3rem !important;
+  line-height: 38px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 5%;
+}
+
+.c-btn {
+  color: white;
+  font-size: 5rem !important;
+}
+.said-by {
+  margin-left: 300px;
+}
+
+/* motivational quotes ends here */
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* map section starts here */
+
+.contact {
+  background: #fff;
+}
+.contact .container {
+  padding-top: 85px;
+  padding-bottom: 90px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 3rem !important;
+  padding-bottom: 10px !important;
+  line-height: 38px;
+  padding-bottom: 0px;
+  font-weight: lighter !important;
+  text-transform: uppercase;
+  margin: 0px;
+  color: #ff675f;
+}
+.contact p {
+  color: #84868d;
+  /*font-size:13px;*/
+  line-height: 18px;
+  font-size: 14px !important;
+}
+.contact .heading p {
+  padding-bottom: 41px;
+}
+.contact h4 {
+  font-weight: 700;
+}
+.topCon {
+  padding-bottom: 0px !important;
+}
+.mapArea {
+  background: url(../images/map-bro.png) repeat-x 0 0;
+  padding-top: 4px;
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+}
+.mapArea iframe {
+  width: 100%;
+  height: 396px;
+  padding-bottom: 4px;
+  background: url(../images/map-bro.png) repeat-x 0 100%;
+}
+/* map section ends here */
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* comments section starts here */
+.comment-head {
+  text-align: center;
+  color: white;
+}
+#comment-container {
+  padding: 5%;
+}
+.s-btn {
+  border-radius: 0 !important;
+  background-color: #ff675f !important;
+}
+.s-btn:hover {
+  background: #f5534b !important;
+}
+#sub-btn {
+  color: white !important;
+}
+.form-control {
+  background-color: #585f73 !important;
+  color: white !important;
+  border-radius: 0 !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.form-control::placeholder {
+  color: white !important;
+  opacity: 0.3 !important;
+  font-style: italic;
+  font-weight: lighter;
+}
+.form-control {
+  padding: 25px !important;
+}
+.contact-form {
+  margin-top: 5%;
+}
+#comment-container {
+  background-color: #474d5d;
+}
+.s-btn {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.shoot {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+/* comments section ends here */
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* footer section starts from here */
+
+.anim a {
+  background: rgba(255, 255, 255, 0.1);
+  -o-transition: -o-transform ease-out 0.1s, background 0.2s;
+  -ms-transition: -ms-transform ease-out 0.1s, background 0.2s;
+  -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+  transition: transform ease-out 0.1s, background 0.2s;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.anim a:hover {
+  background: rgba(255, 255, 255, 0.05);
+  -o-transform: scale(0.93);
+  -webkit-transform: scale(0.93);
+  -ms-transform: scale(0.93);
+  transform: scale(0.93);
+}
+
+.anim a:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  top: 0;
+  left: 0;
+  padding: 0;
+  z-index: -1;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -o-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.anim a:hover:after {
+  -o-animation: sonarEffect 1.3s ease-out 75ms;
+  -webkit-animation: sonarEffect 1.3s ease-out 75ms;
+  animation: sonarEffect 1.3s ease-out 75ms;
+}
+@keyframes sonarEffect {
+  0% {
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+  }
+  40% {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1),
+      0 0 0 10px rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1),
+      0 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1),
+      0 0 0 10px rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1),
+      0 0 0 10px rgba(255, 255, 255, 0.3);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    filter: alpha(opacity=0);
+    opacity: 0;
+  }
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+#footer-section {
+  text-align: center;
+  background-color: #00bdbd;
+}
+.copyright {
+  padding-top: 50px !important;
+  color: #fff;
+  text-align: center;
+}
+.footer-link {
+  margin-top: 2%;
+  margin-left: 20px;
+}
+.anim {
+  padding: 50px;
+}
+/* footer section ends here */
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* media querries */
+
+@media (max-width: 1028px) {
+  .head1 {
+    color: white;
+    position: absolute;
+    top: 30% !important;
+    width: 100%;
+    font-size: 70px !important;
+  }
+
+  .head2 {
+    color: white;
+    position: absolute !important;
+    top: 60% !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1055px) {
+  .nav-text {
+    font-size: 16px;
+  }
+  .hd1 {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 1055px) {
+  .hd2 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .head1 {
+    font-size: 50px !important;
+  }
+}
+@media (max-width: 414px) {
+  .head1 {
+    font-size: 50px !important;
+  }
+  .skill-heading {
+    font-size: 2.7rem !important;
+    -webkit-text-size-adjust: auto;
+  }
+}
+@media (max-width: 425px) {
+  .skill-heading {
+    font-size: 2.9rem !important;
+  }
+}
+@media (max-width: 463px) {
+  .head1 {
+    font-size: 50px !important;
+  }
+
+  .aboutme-image {
+    width: 300px;
+    height: 300px;
+  }
+  .c-btn {
+    color: white;
+    font-size: 3rem !important;
+  }
+}
+@media (max-width: 339px) {
+  .head1 {
+    font-size: 40px !important;
+  }
+  .aboutme-image {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 660px) {
+  .hd2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 405px) {
+  .skill-heading {
+    font-size: 2.5rem !important;
+  }
+}
+@media (max-width: 320px) {
+  .skill-heading {
+    font-size: 2rem !important;
+  }
+
+  .hd2 {
+    font-size: 14px;
+  }
+  .about-name {
+    font-size: 20px;
+  }
+  .download-resume {
+    font-size: 1rem !important;
+  }
+}
